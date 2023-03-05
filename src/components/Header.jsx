@@ -1,4 +1,4 @@
-import logo from "../images/airbnb1.png";
+import logo from "../../public/images/airbnb1.png";
 
 function Header() {
   return (

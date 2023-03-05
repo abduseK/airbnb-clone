@@ -1,4 +1,4 @@
-import starImage from "../images/star1.png";
+import starImage from "../../public/images/star1.png";
 
 function Card(props) {
   return (
@@ -11,9 +11,9 @@ function Card(props) {
           <span className="gray">({props.rateCount}) - </span>
           <span className="gray">{props.location}</span>
         </div>
-        <p>Life lessons with Katie Zaferes</p>
+        <p>{props.title}</p>
         <p>
-          <span className="bold">From $136</span> / person
+          <span className="bold">From ${props.price}</span> / person
         </p>
       </div>
     </>
