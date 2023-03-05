@@ -13,7 +13,7 @@ function App() {
       <div className="card-props">
         <Card rate="5.0" location="USA" rateCount="2" img={firsImage} />
         <Card
-          rate="4.3"
+          rate="4.4"
           location="Addis Ababa"
           rateCount="5"
           img={secondImage}
