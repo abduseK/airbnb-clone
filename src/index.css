@@ -44,9 +44,17 @@ section {
 .bold {
   font-weight: bold;
 }
+
+.description {
+  margin-bottom: 0;
+}
 .card {
+  padding: 10px;
   font-size: 13px;
   width: 170px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 /* .card:hover {
@@ -56,6 +64,7 @@ section {
 .cardImage1 {
   width: 100%;
   height: 235px;
+  margin-bottom: 10px;
 }
 
 .cardDescription {
@@ -69,8 +78,9 @@ section {
 }
 
 .card-props {
-  align-items: start;
-  padding: 10px;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 20px;
+  overflow-x: auto;
 }
